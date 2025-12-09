@@ -1,3 +1,8 @@
+![npm version](https://img.shields.io/npm/v/tvault-cli)
+![npm downloads](https://img.shields.io/npm/dm/tvault-cli)
+![license](https://img.shields.io/npm/l/tvault-cli)
+![GitHub Repo stars](https://img.shields.io/github/stars/yellareddymaheshreddy/tvault-cli)
+
 # tvault-cli
 
 A lightweight command-line tool to shorten URLs, store text snippets, and retrieve them using the TVault API. Built with TypeScript, Node.js, and Meow.
