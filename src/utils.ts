@@ -1,4 +1,4 @@
-const baseurl = "https://t.mahs.me/api/";
+const baseurl = "https://tsvault.vercel.app/api/";
 
 interface ShortenResponse {
     code: string;
@@ -24,7 +24,7 @@ export async function urlShortner(url: string, key?: string): Promise<string> {
         return "Error shortening URL";
     }
     let responseData = await response.json() as ShortenResponse;
-    return "https://t.mahs.me/u/" + responseData.code;
+    return "https://tsvault.vercel.app/u/" + responseData.code;
 }
 
 export async function storeText(text: string, key: string): Promise<string> {

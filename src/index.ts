@@ -82,7 +82,7 @@ switch(command){
             console.error("Please provide a key to open the shortened URL.");
             break
         }
-        const shortenedUrl = "https://t.mahs.me/u/"+code;
+        const shortenedUrl = "https://tsvault.vercel.app/u/"+code;
         console.log("Opening URL:",shortenedUrl);
         await open(shortenedUrl);
         break;
